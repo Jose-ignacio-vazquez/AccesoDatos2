@@ -1,6 +1,12 @@
 package com.unir.jiv.entidad;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 public class Coche {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String marca;
 	private String modelo;

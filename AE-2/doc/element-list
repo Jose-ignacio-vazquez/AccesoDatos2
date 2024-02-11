@@ -1,0 +1,5 @@
+com.unir.jiv.entidad
+com.unir.jiv.negocio
+com.unir.jiv.persistencia
+com.unir.jiv.persistencia.interfaz
+com.unir.jiv.presentacion
